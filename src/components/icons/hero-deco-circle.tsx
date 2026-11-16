@@ -3,8 +3,19 @@ import type { SVGProps } from "react";
 /** Exported from Figma (hero-deco-circle.svg). Decorative by default (aria-hidden). */
 export function HeroDecoCircleIcon(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg width="106" height="106" viewBox="0 0 106 106" fill="none" aria-hidden="true" focusable="false" {...props}>
-<path d="M0 53C0 23.7289 23.7289 0 53 0C82.2711 0 106 23.7289 106 53C106 82.2711 82.2711 106 53 106C23.7289 106 0 82.2711 0 53Z" fill="#E2E8FF"/>
-</svg>
+    <svg
+      width="106"
+      height="106"
+      viewBox="0 0 106 106"
+      fill="none"
+      aria-hidden="true"
+      focusable="false"
+      {...props}
+    >
+      <path
+        d="M0 53C0 23.7289 23.7289 0 53 0C82.2711 0 106 23.7289 106 53C106 82.2711 82.2711 106 53 106C23.7289 106 0 82.2711 0 53Z"
+        fill="#E2E8FF"
+      />
+    </svg>
   );
 }

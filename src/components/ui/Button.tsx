@@ -24,12 +24,10 @@ type ButtonAsNative = BaseProps &
 export type ButtonProps = ButtonAsAnchor | ButtonAsNative;
 
 const VARIANT_CLASSES: Record<ButtonVariant, string> = {
-  primary:
-    "bg-primary text-white hover:bg-primary-hover active:translate-y-px",
+  primary: "bg-primary text-white hover:bg-primary-hover active:translate-y-px",
   secondary:
     "bg-white text-ink border border-line hover:border-ink/30 hover:bg-cream/60 active:translate-y-px",
-  accent:
-    "bg-sun text-ink hover:bg-sun-hover active:translate-y-px",
+  accent: "bg-sun text-ink hover:bg-sun-hover active:translate-y-px",
 };
 
 const SIZE_CLASSES: Record<ButtonSize, string> = {

@@ -13,10 +13,7 @@ class MockIntersectionObserver implements IntersectionObserver {
   readonly thresholds: ReadonlyArray<number> = [];
   constructor(private callback: IntersectionObserverCallback) {}
   observe(target: Element) {
-    this.callback(
-      [{ isIntersecting: true, target } as IntersectionObserverEntry],
-      this,
-    );
+    this.callback([{ isIntersecting: true, target } as IntersectionObserverEntry], this);
   }
   unobserve() {}
   disconnect() {}

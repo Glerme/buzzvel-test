@@ -17,9 +17,7 @@ export interface RevealProps {
 export function Reveal({ children, delayMs = 0, className }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
   const reducedMotion = usePrefersReducedMotion();
-  const [revealed, setRevealed] = useState(
-    () => typeof IntersectionObserver === "undefined",
-  );
+  const [revealed, setRevealed] = useState(() => typeof IntersectionObserver === "undefined");
 
   useEffect(() => {
     if (reducedMotion || revealed) return;
@@ -44,9 +42,7 @@ export function Reveal({ children, delayMs = 0, className }: RevealProps) {
     return () => observer.disconnect();
   }, [reducedMotion, revealed]);
 
-  const style = delayMs
-    ? ({ "--reveal-delay": `${delayMs}ms` } as CSSProperties)
-    : undefined;
+  const style = delayMs ? ({ "--reveal-delay": `${delayMs}ms` } as CSSProperties) : undefined;
 
   return (
     <div

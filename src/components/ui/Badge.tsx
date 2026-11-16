@@ -14,7 +14,10 @@ const VARIANT_CLASSES: Record<NonNullable<BadgeProps["variant"]>, string> = {
 /** Small status/number/metadata badge matching Figma chip tokens. */
 export function Badge({ variant = "number", className, children, ...props }: BadgeProps) {
   return (
-    <span className={cn("inline-flex items-center", VARIANT_CLASSES[variant], className)} {...props}>
+    <span
+      className={cn("inline-flex items-center", VARIANT_CLASSES[variant], className)}
+      {...props}
+    >
       {children}
     </span>
   );

@@ -14,12 +14,7 @@ export interface CountUpProps {
  * Subtle count-up animation for stat numbers.
  * Renders the final value immediately for SSR, screen readers, and reduced motion.
  */
-export function CountUp({
-  value,
-  suffix = "",
-  durationMs = 900,
-  className,
-}: CountUpProps) {
+export function CountUp({ value, suffix = "", durationMs = 900, className }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const reducedMotion = usePrefersReducedMotion();
   const [current, setCurrent] = useState(value);

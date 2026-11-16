@@ -7,7 +7,8 @@ export const HOW_IT_WORKS_CONTENT = {
     {
       step: "Step 01",
       title: "Choose your focus",
-      description: "Find courses based on the skill you want to build, not endless content categories.",
+      description:
+        "Find courses based on the skill you want to build, not endless content categories.",
       variant: "focus",
     },
     {
@@ -19,7 +20,8 @@ export const HOW_IT_WORKS_CONTENT = {
     {
       step: "Step 03",
       title: "Put it into practice",
-      description: "Every course includes practical exercises designed to turn knowledge into action.",
+      description:
+        "Every course includes practical exercises designed to turn knowledge into action.",
       variant: "practice",
     },
   ] satisfies HowItWorksStep[],
