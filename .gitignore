@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# challenge pdf & e2e artifacts
+*.pdf
+/playwright-report/
+/test-results/
+

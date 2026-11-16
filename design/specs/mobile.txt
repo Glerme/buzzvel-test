@@ -1,0 +1,354 @@
+# Figma spec — mobile frame 2:4195 (402px wide). Coordinates are relative to the frame. Format: TYPE id 'name' (x,y,WxH) ...
+FRAME 2:4195 'FE - Mobile' (0,0,402x7799) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN] fill=#F9F8F3
+  FRAME 2:4198 'App' (0,0,402x7799) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+    FRAME 2:4199 'Header' (0,0,402x69) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN] fill=#F9F8F3 stroke=#DBDFEB w=1.0 INSIDE
+      FRAME 2:4200 'Container' (0,0,402x68) auto[HORIZONTAL gap=0 pad=0/20.0/0/20.0 align=SPACE_BETWEEN/CENTER]
+        FRAME 2:4201 'Link' (20,26,54x17) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+          VECTOR 15:138 'luma.' (20,26,54x17) fill=#171B2C
+        FRAME 2:4204 'Button - Toggle menu' (346,16,36x36) auto[VERTICAL gap=0 pad=6.0/6.0/6.0/6.0 align=CENTER/MIN]
+          FRAME 2:4205 'MenuIcon' (352,22,24x24)
+            VECTOR 2:4206 'Vector' (355,29,18x10) stroke=#171B2C w=1.5 CENTER
+    FRAME 2:4207 'Main Content' (0,69,402x7108) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+      FRAME 2:4208 'Hero' (0,69,402x1044) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#F9F8F3
+        FRAME 2:4209 'Container' (0,129,402x924) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4210 'Container' (20,129,362x924) auto[VERTICAL gap=40.0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4242 'Container' (20,129,362x380)
+              FRAME 2:4243 'Container' (120,153,272x342) fill=#FFCB9F r=16.0
+              FRAME 2:4244 'Container' (10,433,64x64) fill=#E2E8FF r=full
+              FRAME 2:4245 'Container' (28,129,346x380) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN] r=16.0
+                FRAME 2:4246 'Image (Person focused on learning at their laptop)' (28,129,346x380) fill=#E2E8FF,IMAGE(STRETCH)
+              FRAME 2:4247 'Container' (20,135,213x56) auto[HORIZONTAL gap=12.0 pad=12.0/16.0/12.0/16.0 align=MIN/CENTER] fill=#FFFFFF r=12.0 DROP_SHADOW(x0.0 y4.0 blur24.0 spread0 #000000@0.10)
+                FRAME 2:4248 'Text' (36,147,43x32) auto[HORIZONTAL gap=0 pad=0/4.0/0/4.0 align=CENTER/CENTER] fill=#E2E8FF r=8.0
+                  TEXT 2:4249 'Number of courses' (40,151,35x24) fill=#3157F6 text="120+" font=Inter 400 14.0px/lh24.0 ls0.0 override['120+']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                FRAME 2:4251 'Paragraph' (91,151,126x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4252 'Courses description' (91,151,126x24) fill=#171B2C text="expert-led courses" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4254 'Container' (184,426,209x48) auto[HORIZONTAL gap=8.0 pad=12.0/16.0/12.0/16.0 align=MIN/CENTER] fill=#FFFFFF r=12.0 DROP_SHADOW(x0.0 y4.0 blur24.0 spread0 #000000@0.10)
+                FRAME 2:4255 'Container' (200,442,78x14) auto[HORIZONTAL gap=2.0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4256 'Star' (200,442,14x14)
+                    VECTOR 2:4257 'Vector' (202,444,10x10) fill=#FFEE7E
+                  FRAME 2:4258 'Star' (216,442,14x14)
+                    VECTOR 2:4259 'Vector' (218,444,10x10) fill=#FFEE7E
+                  FRAME 2:4260 'Star' (232,442,14x14)
+                    VECTOR 2:4261 'Vector' (234,444,10x10) fill=#FFEE7E
+                  FRAME 2:4262 'Star' (248,442,14x14)
+                    VECTOR 2:4263 'Vector' (250,444,10x10) fill=#FFEE7E
+                  FRAME 2:4264 'Star' (264,442,14x14)
+                    VECTOR 2:4265 'Vector' (266,444,10x10) fill=#FFEE7E
+                FRAME 2:4266 'Paragraph' (286,438,91x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4267 'Rating' (286,438,91x24) fill=#171B2C text="4.9 avg rating" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 2:4211 'Container' (20,549,362x504) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4212 'Eyebrow' (20,549,362x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4213 'Pace tagline' (20,549,193x16) fill=#3157F6 text="Learn at your own pace" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+              FRAME 2:4215 'Heading 1' (20,565,362x148) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4216 'Skills tagline' (20,581,362x132) fill=#171B2C text="Build skills that actually move you forward." font=Plus Jakarta Sans 800 40.0px/lh44.0 ls-1.0
+              FRAME 2:4218 'Paragraph' (20,713,362x128) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4219 'Practical courses taught by people who do the work' (20,737,362x104) fill=#656770 text="Practical courses taught by people who do the work every day. Learn design, technology, business and more — one focused lesson at a time." font=Inter 400 16.0px/lh26.0 ls0.0
+              FRAME 2:4221 'Container' (20,841,362x148) auto[VERTICAL gap=12.0 pad=32.0/0/0/0 align=MIN/MIN]
+                FRAME 2:4222 'Link' (20,873,362x52) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#3157F6 r=8.0
+                  TEXT 2:4223 'Explore courses text' (146,887,111x24) fill=#FFFFFF text="Explore courses" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Explore courses']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                FRAME 2:4225 'Link' (20,937,362x54) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                  TEXT 2:4226 'How it works text' (143,952,116x24) fill=#171B2C text="See how it works" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['See how it works']: fontFamily=Inter fontWeight=700 fontSize=14.0
+              FRAME 2:4228 'Container' (20,989,362x64) auto[HORIZONTAL gap=12.0 pad=32.0/0/0/0 align=CENTER/CENTER]
+                FRAME 2:4229 'Container' (58,1021,80x32) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4233 'Image:margin' (58,1021,24x32) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    FRAME 2:4230 'Image' (58,1021,32x32) fill=#E2E8FF,IMAGE(FILL) stroke=#F9F8F3 w=2.0 INSIDE r=full
+                  FRAME 2:4234 'Image:margin' (82,1021,24x32) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    FRAME 2:4231 'Image' (82,1021,32x32) fill=#E2E8FF,IMAGE(FILL) stroke=#F9F8F3 w=2.0 INSIDE r=full
+                  FRAME 2:4232 'Image' (106,1021,32x32) fill=#E2E8FF,IMAGE(FILL) stroke=#F9F8F3 w=2.0 INSIDE r=full
+                FRAME 2:4235 'Paragraph' (150,1025,194x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4236 'Trusted tagline' (150,1025,194x24) fill=#171B2C text="Trusted by 24,000+ learners" font=Inter 400 14.0px/lh24.0 ls0.0 override['Trusted by 24,000+']: fontFamily=Inter fontWeight=700 fontSize=14.0 override[' ']: fontFamily=Inter fontWeight=700 fontSize=14.0 fill=#656770 override['learners']: fontFamily=Inter fontWeight=400 fontSize=14.0 fill=#656770
+      FRAME 2:4269 'Categories' (0,1113,402x1297) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#FFFFFF
+        FRAME 2:4270 'Container' (0,1173,402x1177) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4271 'Container' (20,1173,362x172) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4272 'Eyebrow' (20,1173,362x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              TEXT 2:4273 'Eyebrow' (20,1173,164x16) fill=#3157F6 text="Find your next skill" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+            FRAME 2:4275 'Heading 2' (20,1189,362x88) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/MIN]
+              TEXT 2:4276 'Heading' (20,1205,362x72) fill=#171B2C text="Learn something worth knowing." font=Plus Jakarta Sans 800 32.0px/lh36.0 ls-0.8
+            FRAME 2:4278 'Paragraph' (20,1277,362x68) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/MIN]
+              TEXT 2:4279 'Short, practical courses designed around skills yo' (20,1293,362x52) fill=#656770 text="Short, practical courses designed around skills you can put to work immediately." font=Inter 400 16.0px/lh26.0 ls0.0
+          FRAME 2:4360 'Container:margin' (20,1345,362x1005) auto[VERTICAL gap=0 pad=48.0/0/0/0 align=MIN/MIN]
+            FRAME 2:4283 'Container' (20,1393,362x957) auto[GRID gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4284 'Link' (20,1393,362x227) auto[VERTICAL gap=0 pad=24.0/24.0/24.0/24.0 align=MIN/MIN] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=16.0
+                FRAME 2:4285 'Container' (45,1418,312x134) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4296 'Container' (45,1418,312x46)
+                    FRAME 15:150 'Text' (45,1420,32x24) auto[HORIZONTAL gap=10.0 pad=4.0/8.0/4.0/8.0 align=CENTER/CENTER] fill=#E2E8FF r=6.0
+                      TEXT 15:151 'Step number' (53,1424,16x16) fill=#3157F6 text="01" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4289 'Heading 3' (45,1464,312x28) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4290 'Category name' (45,1464,151x28) fill=#171B2C text="Product Design" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4292 'Paragraph' (45,1492,312x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4293 'Turn complex problems into clear, useful experienc' (45,1504,312x48) fill=#6D7384 text="Turn complex problems into clear, useful experiences." font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4297 'Container' (45,1552,312x44) auto[HORIZONTAL gap=8.0 pad=24.0/0/0/0 align=MIN/CENTER]
+                  TEXT 2:4298 'Explore category link' (45,1574,52x24) fill=#171B2C text="Explore" font=Inter 400 14.0px/lh24.0 ls0.0 override['Explore']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                  FRAME 2:4300 'Arrow' (105,1576,20x20)
+                    VECTOR 2:4301 'Vector' (109,1582,12x10) stroke=#171B2C w=1.5 CENTER
+              FRAME 2:4303 'Link' (20,1636,362x227) auto[VERTICAL gap=0 pad=24.0/24.0/24.0/24.0 align=MIN/MIN] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=16.0
+                FRAME 2:4304 'Container' (45,1661,312x134) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4315 'Container' (45,1661,312x46)
+                    FRAME 15:153 'Text' (45,1663,33x24) auto[HORIZONTAL gap=10.0 pad=4.0/8.0/4.0/8.0 align=CENTER/CENTER] fill=#E2E8FF r=6.0
+                      TEXT 15:154 'Step number' (53,1667,17x16) fill=#3157F6 text="02" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4308 'Heading 3' (45,1708,312x28) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4309 'Category name' (45,1708,114x28) fill=#171B2C text="Technology" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4311 'Paragraph' (45,1736,312x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4312 'Build a stronger understanding of the tools shapin' (45,1748,312x48) fill=#6D7384 text="Build a stronger understanding of the tools shaping digital products." font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4316 'Container' (45,1796,312x44) auto[HORIZONTAL gap=8.0 pad=24.0/0/0/0 align=MIN/CENTER]
+                  TEXT 2:4317 'Explore category link' (45,1818,52x24) fill=#171B2C text="Explore" font=Inter 400 14.0px/lh24.0 ls0.0 override['Explore']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                  FRAME 2:4319 'Arrow' (105,1820,20x20)
+                    VECTOR 2:4320 'Vector' (109,1825,12x10) stroke=#171B2C w=1.5 CENTER
+              FRAME 2:4322 'Link' (20,1879,362x227) auto[VERTICAL gap=0 pad=24.0/24.0/24.0/24.0 align=MIN/MIN] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=16.0
+                FRAME 2:4323 'Container' (45,1904,312x134) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4334 'Container' (45,1904,312x46)
+                    FRAME 15:156 'Text' (45,1906,34x24) auto[HORIZONTAL gap=10.0 pad=4.0/8.0/4.0/8.0 align=CENTER/CENTER] fill=#E2E8FF r=6.0
+                      TEXT 15:157 'Step number' (53,1910,18x16) fill=#3157F6 text="03" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4327 'Heading 3' (45,1951,312x28) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4328 'Category name' (45,1951,86x28) fill=#171B2C text="Business" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4330 'Paragraph' (45,1979,312x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4331 'Develop practical skills for better decisions and ' (45,1991,312x48) fill=#6D7384 text="Develop practical skills for better decisions and stronger teams." font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4335 'Container' (45,2039,312x44) auto[HORIZONTAL gap=8.0 pad=24.0/0/0/0 align=MIN/CENTER]
+                  TEXT 2:4336 'Explore category link' (45,2061,52x24) fill=#171B2C text="Explore" font=Inter 400 14.0px/lh24.0 ls0.0 override['Explore']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                  FRAME 2:4338 'Arrow' (105,2063,20x20)
+                    VECTOR 2:4339 'Vector' (109,2068,12x10) stroke=#171B2C w=1.5 CENTER
+              FRAME 2:4341 'Link' (20,2123,362x227) auto[VERTICAL gap=0 pad=24.0/24.0/24.0/24.0 align=MIN/MIN] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=16.0
+                FRAME 2:4342 'Container' (45,2148,312x134) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4353 'Container' (45,2148,312x46)
+                    FRAME 15:159 'Text' (45,2150,34x24) auto[HORIZONTAL gap=10.0 pad=4.0/8.0/4.0/8.0 align=CENTER/CENTER] fill=#E2E8FF r=6.0
+                      TEXT 15:160 'Step number' (53,2154,18x16) fill=#3157F6 text="04" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4346 'Heading 3' (45,2194,312x28) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4347 'Category name' (45,2194,84x28) fill=#171B2C text="Creative" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4349 'Paragraph' (45,2222,312x59) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4350 'Explore new ways to communicate, create and tell s' (45,2234,312x47) fill=#6D7384 text="Explore new ways to communicate, create and tell stories." font=Inter 400 14.0px/lh23.1 ls0.0
+                FRAME 2:4354 'Container' (45,2281,312x44) auto[HORIZONTAL gap=8.0 pad=24.0/0/0/0 align=MIN/CENTER]
+                  TEXT 2:4355 'Explore category link' (45,2303,52x24) fill=#171B2C text="Explore" font=Inter 400 14.0px/lh24.0 ls0.0 override['Explore']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                  FRAME 2:4357 'Arrow' (105,2305,20x20)
+                    VECTOR 2:4358 'Vector' (109,2310,12x10) stroke=#171B2C w=1.5 CENTER
+      FRAME 2:4361 'FeaturedCourse' (0,2410,402x888) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#3157F6
+        FRAME 2:4362 'Container' (0,2470,402x768) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4363 'Container' (20,2470,362x768) auto[GRID gap=0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4364 'Container' (20,2471,362x280) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4368 'Container' (20,2471,362x280) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN] r=16.0
+                FRAME 2:4369 'Image (Product design course — student working on interface designs)' (20,2471,362x280) fill=IMAGE(FILL)
+              FRAME 2:4365 'Container' (8,2459,160x28) auto[VERTICAL gap=0 pad=6.0/12.0/6.0/12.0 align=MIN/MIN] fill=#FFEE7E r=6.0
+                TEXT 2:4366 'Featured text' (20,2465,136x16) fill=#171B2C text="Featured Course" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+            FRAME 2:4370 'Container' (20,2789,362x452) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4371 'Eyebrow' (20,2789,362x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4372 'Popular tagline' (20,2789,208x16) fill=#FFFFFF text="Most popular this month" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+              FRAME 2:4374 'Heading 2' (20,2805,362x88) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4375 'Course name' (20,2821,362x72) fill=#FFFFFF text="Designing products people understand." font=Plus Jakarta Sans 800 32.0px/lh36.0 ls-0.8
+              FRAME 2:4377 'Paragraph' (20,2893,362x92) auto[VERTICAL gap=0 pad=20.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4378 'Learn how to turn complex workflows into simple, i' (20,2913,362x72) fill=#FFFFFF text="Learn how to turn complex workflows into simple, intentional product experiences through research, structure and thoughtful interaction design." font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4380 'Paragraph' (20,2985,362x48) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4381 'Instructor details' (20,3009,280x24) fill=#FFFFFF text="with Maya Chen · Senior Product Designer" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4383 'Container' (20,3033,362x62) auto[HORIZONTAL gap=12.0 pad=24.0/0/0/0 align=MIN/MIN]
+                FRAME 2:4384 'Text' (20,3057,93x38) auto[VERTICAL gap=0 pad=6.0/14.0/6.0/14.0 align=MIN/MIN] stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                  TEXT 2:4385 'Lessons info' (35,3064,63x24) fill=#E7E7EC text="8 lessons" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4387 'Text' (125,3057,93x38) auto[VERTICAL gap=0 pad=6.0/14.0/6.0/14.0 align=MIN/MIN] stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                  TEXT 2:4388 'Duration info' (140,3064,63x24) fill=#E7E7EC text="2h 40min" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4390 'Text' (230,3057,114x38) auto[VERTICAL gap=0 pad=6.0/14.0/6.0/14.0 align=MIN/MIN] stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                  TEXT 2:4391 'Skill level info' (245,3064,84x24) fill=#E7E7EC text="Intermediate" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4393 'Container' (20,3095,362x146) auto[VERTICAL gap=12.0 pad=32.0/0/0/0 align=MIN/MIN]
+                FRAME 2:4394 'Link' (20,3127,362x52) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#FFEE7E r=8.0
+                  TEXT 2:4395 'View course link' (158,3141,86x24) fill=#171B2C text="View course" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['View course']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                FRAME 15:171 'Link' (20,3191,362x50) auto[HORIZONTAL gap=8.0 pad=14.0/16.0/14.0/16.0 align=CENTER/MIN]
+                  TEXT 15:172 'Browse courses link' (122,3205,129x24) fill=#E7E7EC text="Browse all courses" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Browse all courses']: fontFamily=Inter fontWeight=700 fontSize=14.0
+                  FRAME 15:173 'Arrow' (260,3205,20x20)
+                    VECTOR 15:174 'Vector' (264,3210,12x10) stroke=#FFFFFF w=1.5 CENTER
+      FRAME 2:4405 'HowItWorks' (0,3298,402x1001) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#F9F8F3
+        FRAME 2:4406 'Container' (0,3358,402x881) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4407 'Container' (20,3358,362x104) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4408 'Eyebrow' (20,3358,362x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/CENTER]
+              TEXT 2:4409 'Eyebrow' (134,3358,135x16) fill=#3157F6 text="How Luma works" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER align=CENTER
+            FRAME 2:4411 'Heading 2' (20,3374,362x88) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/CENTER]
+              TEXT 2:4412 'Heading' (20,3390,362x72) fill=#171B2C text="Less browsing. More learning." font=Plus Jakarta Sans 800 32.0px/lh36.0 ls-0.8 align=CENTER
+          FRAME 2:4470 'Container:margin' (20,3462,362x777) auto[VERTICAL gap=0 pad=40.0/0/0/0 align=MIN/MIN]
+            FRAME 2:4415 'Container' (20,3502,362x737) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4416 'Container' (20,3502,362x271)
+                FRAME 2:4417 'Container' (48,3723,1x50) fill=#DBDFEB
+                FRAME 2:4418 'Container' (20,3502,362x243) auto[VERTICAL gap=0 pad=0/0/48.0/0 align=MIN/MIN]
+                  FRAME 2:4419 'Container' (20,3502,56x56) fill=#E2E8FF r=full
+                    FRAME 2:4421 'Container' (28,3510,24x24) fill=#3157F6 r=6.0
+                  FRAME 2:4422 'Text' (20,3558,362x41) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4423 'Step number' (20,3582,57x16) fill=#6D7384 text="Step 01" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4425 'Heading 3' (20,3598,362x38) auto[VERTICAL gap=0 pad=8.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4426 'Focus tagline' (20,3606,183x28) fill=#171B2C text="Choose your focus" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4433 'Paragraph:margin' (20,3636,362x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4429 'Find courses based on the skill you want to build,' (20,3648,362x48) fill=#656770 text="Find courses based on the skill you want to build, not endless content categories." font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4434 'Container' (20,3772,362x271)
+                FRAME 2:4435 'Container' (48,3997,1x47) fill=#DBDFEB
+                FRAME 2:4436 'Container' (20,3772,362x195) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4437 'Container' (20,3772,56x56)
+                    FRAME 2:4438 'Container' (15,3767,66x66) fill=#FF704D@0.15 r=8.0 rot=12.0deg
+                    FRAME 2:4439 'Container' (44,3796,28x28) fill=#FF704D r=full
+                  FRAME 2:4440 'Text' (20,3828,362x41) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4441 'Step number' (20,3852,58x16) fill=#6D7384 text="Step 02" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                  FRAME 2:4443 'Heading 3' (20,3870,362x38) auto[VERTICAL gap=0 pad=8.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4444 'Experience tagline' (20,3878,219x28) fill=#171B2C text="Learn from experience" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                  FRAME 2:4451 'Paragraph:margin' (20,3908,362x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4447 'Follow concise lessons created by professionals wh' (20,3920,362x48) fill=#656770 text="Follow concise lessons created by professionals who actually use these skills." font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4453 'Container' (20,4044,362x195) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                FRAME 18:705 'Container' (20,4044,56x56) fill=#FFF1C2 r=12.0
+                  FRAME 18:706 'Container' (28,4072,20x20) fill=#E9D659 r=full
+                FRAME 2:4458 'Text' (20,4100,362x41) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4459 'Step number' (20,4124,59x16) fill=#6D7384 text="Step 03" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+                FRAME 2:4461 'Heading 3' (20,4140,362x38) auto[VERTICAL gap=0 pad=8.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4462 'Practice tagline' (20,4148,178x28) fill=#171B2C text="Put it into practice" font=Plus Jakarta Sans 700 20.0px/lh28.0 ls0.0
+                FRAME 2:4469 'Paragraph:margin' (20,4178,362x60) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4465 'Every course includes practical exercises designed' (20,4190,362x48) fill=#656770 text="Every course includes practical exercises designed to turn knowledge into action." font=Inter 400 14.0px/lh24.0 ls0.0
+      FRAME 2:4471 'Testimonial' (0,4298,402x524) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#FFFFFF
+        FRAME 2:4472 'Container' (0,4358,402x404) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4473 'Container' (20,4358,362x404) auto[VERTICAL gap=60.0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4474 'Container' (20,4358,362x248) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4475 'Container' (20,4358,362x22) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                VECTOR 18:708 '"' (20,4358,24x22) fill=#3157F6
+              FRAME 2:4478 'Quote' (20,4380,362x144) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/MIN]
+                TEXT 2:4479 'The lessons are short enough to fit into my week, ' (20,4396,362x128) fill=#171B2C text="The lessons are short enough to fit into my week, but detailed enough that I actually leave with something I can use." font=Plus Jakarta Sans 600 20.0px/lh32.0 ls0.0
+              FRAME 2:4481 'Container' (20,4524,362x82) auto[HORIZONTAL gap=16.0 pad=32.0/0/0/0 align=MIN/CENTER]
+                FRAME 2:4482 'Image (Alex Morgan)' (20,4557,48x48) fill=#E2E8FF,IMAGE(FILL) r=full
+                FRAME 2:4483 'Container' (84,4556,106x50) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  FRAME 2:4484 'Paragraph' (84,4556,106x26) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4485 'Name' (84,4556,99x26) fill=#171B2C text="Alex Morgan" font=Inter 400 16.0px/lh26.0 ls0.0 override['Alex Morgan']: fontFamily=Inter fontWeight=700 fontSize=16.0
+                  FRAME 2:4487 'Paragraph' (84,4582,106x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                    TEXT 2:4488 'Title' (84,4582,115x24) fill=#656770 text="Product Manager" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 2:4492 'Container' (20,4666,362x96) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4493 'Container' (20,4666,121x68) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                FRAME 2:4494 'Paragraph' (20,4666,121x44) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4495 'Number of learners' (20,4666,102x44) fill=#3157F6 text="24K+" font=Plus Jakarta Sans 800 40.0px/lh44.0 ls-1.0
+                FRAME 2:4497 'Paragraph' (20,4710,105x24) auto[VERTICAL gap=0 pad=4.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4498 'Learners description' (20,4714,98x24) fill=#6D7384 text="active learners" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4501 'Container' (141,4666,121x96) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                FRAME 2:4502 'Paragraph' (141,4666,121x44) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4503 'Number of courses' (141,4666,93x44) fill=#3157F6 text="120+" font=Plus Jakarta Sans 800 40.0px/lh44.0 ls-1.0
+                FRAME 2:4505 'Paragraph' (141,4710,105x52) auto[VERTICAL gap=0 pad=4.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4506 'Courses description' (141,4714,105x48) fill=#6D7384 text="expert-led courses" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4509 'Container' (261,4666,121x96) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                FRAME 2:4510 'Paragraph' (261,4666,121x44) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4511 'Completion percentage' (261,4666,89x44) fill=#3157F6 text="92%" font=Plus Jakarta Sans 800 40.0px/lh44.0 ls-1.0
+                FRAME 2:4513 'Paragraph' (261,4710,105x52) auto[VERTICAL gap=0 pad=4.0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4514 'Completion description' (261,4714,105x48) fill=#6D7384 text="complete their first course" font=Inter 400 14.0px/lh24.0 ls0.0
+      FRAME 4:1234 'Section' (0,4822,402x790) auto[VERTICAL gap=32.0 pad=60.0/20.0/60.0/20.0 align=CENTER/MIN]
+        FRAME 4:1272 'Section Text' (20,4882,362x328) auto[VERTICAL gap=24.0 pad=0/0/0/0 align=MIN/MIN]
+          FRAME 4:1273 'Top' (20,4882,362x96) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+            TEXT 14:38 'Section title' (20,4882,87x16) fill=#3157F6 text="The people" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+            TEXT 14:37 'Main Headline' (20,4906,362x72) fill=#171B2C text="Meet international students & teachers" font=Plus Jakarta Sans 800 32.0px/lh36.0 ls-0.8
+          TEXT 4:1277 'Paragraph' (20,5002,362x130) fill=#171B2C text="Morbi sit egestas dignissim pharetra, sed amet. Tempus justo senectus risus ac vel, velit, nunc. Eget commodo eget in aliquam facilisi facilisi nec magna hendrerit. Placerat ipsum sit tellus urna, faucibus aenean lorem faucibus integer." font=Inter 400 16.0px/lh26.0 ls0.0
+          FRAME 18:727 'Link' (20,5156,268x54) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=8.0
+            TEXT 18:728 'Explore students and teachers' (49,5171,210x24) fill=#171B2C text="Explore teachers and students" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Explore teachers and students']: fontFamily=Inter fontWeight=700 fontSize=14.0
+        FRAME 4:1236 'Col' (20,5242,362x310) auto[HORIZONTAL gap=16.0 pad=0/0/0/0 align=SPACE_BETWEEN/CENTER]
+          FRAME 18:725 'Container' (36,5232,330x330) fill=#E2E8FF r=full
+          FRAME 4:1237 'Col' (20,5257,94x281) auto[VERTICAL gap=8.0 pad=48.0/0/0/0 align=CENTER/MAX]
+            INSTANCE 4:1238 'Image' (42,5305,72x96) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1239 'Image' (20,5409,94x129) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+          FRAME 4:1240 'Col' (126,5242,72x310) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+            INSTANCE 4:1241 'Image' (126,5242,72x106) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1242 'Image' (126,5356,72x108) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1243 'Image' (126,5472,72x80) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+          FRAME 4:1244 'Col' (210,5255,72x284) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+            INSTANCE 4:1245 'Image' (210,5255,72x86) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1246 'Image' (210,5349,72x86) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1247 'Image' (210,5443,72x96) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+          FRAME 4:1248 'Col' (294,5288,88x218) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=CENTER/MIN]
+            INSTANCE 4:1249 'Image' (294,5288,88x128) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+            INSTANCE 4:1250 'Image' (294,5424,72x82) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/CENTER] fill=IMAGE(FILL) r=5.0 DROP_SHADOW(x0.0 y0.0 blur4.0 spread0 #000000@0.07) DROP_SHADOW(x0.0 y4.0 blur6.0 spread-1.0 #000000@0.10)
+      FRAME 21:52 'contact-section-mobile' (0,5612,402x1096) auto[VERTICAL gap=40.0 pad=60.0/20.0/60.0/20.0 align=MIN/MIN] fill=#FFFFFF
+        FRAME 21:53 'Info Column' (20,5672,362x392) auto[VERTICAL gap=32.0 pad=0/0/0/0 align=MIN/MIN]
+          FRAME 21:54 'Header Content' (20,5672,362x180) auto[VERTICAL gap=16.0 pad=0/0/0/0 align=MIN/MIN]
+            TEXT 21:55 'Eyebrow' (20,5672,68x16) fill=#3157F6 text="CONTACT" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+            TEXT 21:56 'Main Title' (20,5704,362x36) fill=#171B2C text="Get in touch" font=Plus Jakarta Sans 800 32.0px/lh36.0 ls-0.8
+            TEXT 21:57 'Description' (20,5756,362x96) fill=#656770 text="Have a question? We’re here to help. Whether you’re looking for the right course, learning with your team or interested in teaching with Luma, we’d love to hear from you." font=Inter 400 14.0px/lh24.0 ls0.0
+          FRAME 21:58 'Contact Cards' (20,5884,362x180) auto[VERTICAL gap=16.0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 21:59 'Contact Item' (20,5884,362x82) auto[HORIZONTAL gap=16.0 pad=16.0/16.0/16.0/16.0 align=MIN/CENTER] fill=#F9F8F3 r=12.0
+              FRAME 21:60 'Icon Box' (36,5905,40x40) auto[VERTICAL gap=0 pad=10.0/10.0/10.0/10.0 align=CENTER/CENTER] fill=#E2E8FF r=8.0
+                INSTANCE 21:61 'Icon' (44,5913,24x24)
+              FRAME 21:66 'Text Stack' (92,5900,274x50) auto[VERTICAL gap=2.0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 21:67 'Contact title' (92,5900,36x24) fill=#171B2C text="Email" font=Inter 400 14.0px/lh24.0 ls0.0
+                TEXT 21:68 'Email address' (92,5926,128x24) fill=#3157F6 text="contact@luma.com" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 21:69 'Contact Item' (20,5982,362x82) auto[HORIZONTAL gap=16.0 pad=16.0/16.0/16.0/16.0 align=MIN/CENTER] fill=#F9F8F3 r=12.0
+              FRAME 21:70 'Icon Box' (36,6003,40x40) auto[VERTICAL gap=0 pad=10.0/10.0/10.0/10.0 align=CENTER/CENTER] fill=#E2E8FF r=8.0
+                FRAME 21:71 'clock' (46,6013,20x20)
+                  VECTOR 21:72 'Vector' (48,6015,17x17) stroke=#3157F6 w=2.0 CENTER
+              FRAME 21:73 'Text Stack' (92,5998,274x50) auto[VERTICAL gap=2.0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 21:74 'Response time' (92,5998,102x24) fill=#171B2C text="Response Time" font=Inter 400 14.0px/lh24.0 ls0.0
+                TEXT 21:75 'Response description' (92,6024,217x24) fill=#6D7384 text="Up to 24 hours on business days" font=Inter 400 14.0px/lh24.0 ls0.0
+        FRAME 21:76 'Form Container' (20,6104,362x544) auto[VERTICAL gap=24.0 pad=24.0/20.0/24.0/20.0 align=MIN/MIN] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=16.0 DROP_SHADOW(x0.0 y12.0 blur32.0 spread0 #171B2C@0.04)
+          FRAME 21:77 'Form Header' (40,6128,322x64) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+            TEXT 21:78 'Contact form title' (40,6128,107x32) fill=#171B2C text="Contact us" font=Plus Jakarta Sans 700 20.0px/lh32.0 ls0.0
+            TEXT 21:79 'Contact form instructions' (40,6168,322x24) fill=#656770 text="Preencha os campos e entraremos em contato." font=Inter 400 14.0px/lh24.0 ls0.0
+          FRAME 21:80 'Fields Stack' (40,6216,322x332) auto[VERTICAL gap=20.0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 21:81 'Field Item' (40,6216,322x80) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+              TEXT 21:82 'Full name label' (40,6216,108x24) fill=#171B2C text="Nome completo" font=Inter 400 14.0px/lh24.0 ls0.0 override['Nome completo']: fontFamily=Inter fontWeight=700 fontSize=14.0
+              FRAME 21:83 'Input Container' (40,6248,322x48) auto[HORIZONTAL gap=0 pad=12.0/16.0/12.0/16.0 align=MIN/CENTER] fill=#F9F8F3 stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                TEXT 21:84 'Name input placeholder' (56,6260,290x24) fill=#6D7384 text="Seu nome" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 21:85 'Field Item' (40,6316,322x80) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+              TEXT 21:86 'Email label' (40,6316,44x24) fill=#171B2C text="E-mail" font=Inter 400 14.0px/lh24.0 ls0.0 override['E-mail']: fontFamily=Inter fontWeight=700 fontSize=14.0
+              FRAME 21:87 'Input Container' (40,6348,322x48) auto[HORIZONTAL gap=0 pad=12.0/16.0/12.0/16.0 align=MIN/CENTER] fill=#F9F8F3 stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                TEXT 21:88 'Email input placeholder' (56,6360,290x24) fill=#6D7384 text="seuemail@exemplo.com" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 21:89 'Field Item' (40,6416,322x132) auto[VERTICAL gap=8.0 pad=0/0/0/0 align=MIN/MIN]
+              TEXT 21:90 'Question label' (40,6416,76x24) fill=#171B2C text="Sua dúvida" font=Inter 400 14.0px/lh24.0 ls0.0 override['Sua dúvida']: fontFamily=Inter fontWeight=700 fontSize=14.0
+              FRAME 21:91 'Textarea Container' (40,6448,322x100) auto[VERTICAL gap=0 pad=14.0/16.0/14.0/16.0 align=MIN/MIN] fill=#F9F8F3 stroke=#DBDFEB w=1.0 INSIDE r=8.0
+                TEXT 21:92 'Question textarea' (56,6462,290x24) fill=#6D7384 text="Conte como podemos ajudar..." font=Inter 400 14.0px/lh24.0 ls0.0
+          FRAME 21:93 'Submit Button' (40,6572,322x52) auto[HORIZONTAL gap=0 pad=14.0/28.0/14.0/28.0 align=CENTER/CENTER] fill=#3157F6 r=8.0
+            TEXT 21:94 'Submit button text' (140,6586,122x24) fill=#FFFFFF text="Enviar mensagem" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Enviar mensagem']: fontFamily=Inter fontWeight=700 fontSize=14.0
+      FRAME 2:4517 'FinalCTA' (0,6708,402x469) auto[VERTICAL gap=0 pad=60.0/0/60.0/0 align=MIN/MIN] fill=#FFF1C2
+        FRAME 2:4519 'Container' (0,6768,402x349) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+          FRAME 2:4520 'Container' (20,6768,362x40) auto[HORIZONTAL gap=0 pad=0/0/0/0 align=CENTER/MIN]
+            FRAME 2:4525 'Image:margin' (133,6768,32x40) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4521 'Image' (133,6768,40x40) fill=#E2E8FF,IMAGE(FILL) stroke=#FFEE7E w=2.0 INSIDE r=full
+            FRAME 2:4526 'Image:margin' (165,6768,32x40) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4522 'Image' (165,6768,40x40) fill=#E2E8FF,IMAGE(FILL) stroke=#FFEE7E w=2.0 INSIDE r=full
+            FRAME 2:4527 'Image:margin' (197,6768,32x40) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4523 'Image' (197,6768,40x40) fill=#E2E8FF,IMAGE(FILL) stroke=#FFEE7E w=2.0 INSIDE r=full
+            FRAME 2:4524 'Image' (229,6768,40x40) fill=#E2E8FF,IMAGE(FILL) stroke=#FFEE7E w=2.0 INSIDE r=full
+          FRAME 2:4528 'Heading 2' (20,6808,362x112) auto[VERTICAL gap=0 pad=32.0/0/0/0 align=MIN/CENTER]
+            TEXT 2:4529 'Learn tagline' (20,6840,362x80) fill=#171B2C text="What will you learn next?" font=Plus Jakarta Sans 800 36.0px/lh40.0 ls-0.9 align=CENTER
+          FRAME 2:4531 'Paragraph' (20,6920,362x40) auto[VERTICAL gap=0 pad=16.0/0/0/0 align=MIN/CENTER]
+            TEXT 2:4532 'Start tagline' (52,6936,297x26) fill=#656770 text="Start with one course. Build from there." font=Inter 400 16.0px/lh26.0 ls0.0 align=CENTER
+          FRAME 2:4534 'Container' (20,6960,362x157) auto[VERTICAL gap=12.0 pad=40.0/0/0/0 align=CENTER/MIN]
+            FRAME 18:718 'Link' (20,7000,362x52) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#3157F6 r=8.0
+              TEXT 18:719 'Explore courses link' (136,7014,130x24) fill=#FFFFFF text="Explore all courses" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Explore all courses']: fontFamily=Inter fontWeight=700 fontSize=14.0
+            FRAME 18:720 'Link' (20,7064,362x52) auto[VERTICAL gap=0 pad=14.0/28.0/14.0/28.0 align=MIN/CENTER] fill=#FFFFFF stroke=#DBDFEB w=1.0 INSIDE r=8.0
+              TEXT 18:721 'Join link' (166,7079,70x24) fill=#171B2C text="Join Luma" font=Inter 400 14.0px/lh24.0 ls0.0 align=CENTER override['Join Luma']: fontFamily=Inter fontWeight=700 fontSize=14.0
+    FRAME 2:4544 'Footer' (0,7177,402x622) auto[VERTICAL gap=0 pad=60.0/0/20.0/0 align=MIN/MIN] fill=#171B2C
+      FRAME 2:4545 'Container' (0,7237,402x542) auto[VERTICAL gap=0 pad=0/20.0/0/20.0 align=MIN/MIN]
+        FRAME 2:4546 'Container' (20,7237,362x449) auto[VERTICAL gap=40.0 pad=0/0/0/0 align=MIN/MIN]
+          FRAME 2:4547 'Container' (20,7237,362x53) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4548 'Paragraph' (20,7237,362x17) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              VECTOR 18:723 'luma.' (20,7237,54x17) fill=#FFFFFF
+            FRAME 2:4554 'Paragraph:margin' (20,7254,362x36) auto[VERTICAL gap=0 pad=12.0/0/0/0 align=MIN/MIN]
+              TEXT 2:4552 'Tagline' (20,7266,362x24) fill=#9E9FAA text="Practical learning for curious people." font=Inter 400 14.0px/lh24.0 ls0.0
+          FRAME 18:724 'Container' (20,7330,362x164) auto[HORIZONTAL gap=40.0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4555 'Container' (20,7330,161x164) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4556 'Paragraph' (20,7330,161x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4557 'Explore' (20,7330,63x16) fill=#E7E7EC text="Explore" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+              FRAME 2:4559 'List' (20,7346,362x148) auto[VERTICAL gap=12.0 pad=16.0/0/0/0 align=MIN/MIN]
+                FRAME 2:4560 'List Item' (20,7362,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4561 'Courses' (20,7362,55x24) fill=#9E9FAA text="Courses" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4563 'List Item' (20,7398,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4564 'Categories' (20,7398,73x24) fill=#9E9FAA text="Categories" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4566 'List Item' (20,7434,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4567 'Instructors' (20,7434,72x24) fill=#9E9FAA text="Instructors" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4569 'List Item' (20,7470,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4570 'For Teams' (20,7470,69x24) fill=#9E9FAA text="For Teams" font=Inter 400 14.0px/lh24.0 ls0.0
+            FRAME 2:4573 'Container' (221,7330,161x128) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              FRAME 2:4574 'Paragraph' (221,7330,161x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4575 'Company' (221,7330,71x16) fill=#E7E7EC text="Company" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+              FRAME 2:4577 'List' (221,7346,362x112) auto[VERTICAL gap=12.0 pad=16.0/0/0/0 align=MIN/MIN]
+                FRAME 2:4578 'List Item' (221,7362,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4579 'About' (221,7362,40x24) fill=#9E9FAA text="About" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4581 'List Item' (221,7398,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4582 'Careers' (221,7398,52x24) fill=#9E9FAA text="Careers" font=Inter 400 14.0px/lh24.0 ls0.0
+                FRAME 2:4584 'List Item' (221,7434,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                  TEXT 2:4585 'Journal' (221,7434,49x24) fill=#9E9FAA text="Journal" font=Inter 400 14.0px/lh24.0 ls0.0
+          FRAME 2:4588 'Container' (20,7534,362x152) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+            FRAME 2:4589 'Paragraph' (20,7534,362x16) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+              TEXT 2:4590 'Support' (20,7534,66x16) fill=#E7E7EC text="Support" font=Inter 600 12.0px/lh16.0 ls1.44 UPPER
+            FRAME 2:4592 'List' (20,7550,362x136) auto[VERTICAL gap=12.0 pad=16.0/0/0/0 align=MIN/MIN]
+              FRAME 2:4593 'List Item' (20,7566,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4594 'Help Center' (20,7566,80x24) fill=#9E9FAA text="Help Center" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4596 'List Item' (20,7602,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4597 'Contact' (20,7602,53x24) fill=#9E9FAA text="Contact" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4599 'List Item' (20,7638,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4600 'Terms' (20,7638,41x24) fill=#9E9FAA text="Terms" font=Inter 400 14.0px/lh24.0 ls0.0
+              FRAME 2:4602 'List Item' (20,7674,362x24) auto[VERTICAL gap=0 pad=0/0/0/0 align=MIN/MIN]
+                TEXT 2:4603 'Privacy' (20,7674,49x24) fill=#9E9FAA text="Privacy" font=Inter 400 14.0px/lh24.0 ls0.0
+        FRAME 2:4610 'Container:margin' (20,7686,362x93) auto[VERTICAL gap=0 pad=48.0/0/0/0 align=MIN/MIN]
+          FRAME 2:4606 'Container' (20,7734,362x45) auto[VERTICAL gap=0 pad=24.0/0/0/0 align=MIN/MIN] stroke=#656770 w=1.0 INSIDE
+            FRAME 2:4607 'Paragraph' (20,7759,362x20) auto[VERTICAL gap=0 pad=0/0/0/0 align=CENTER/CENTER]
+              TEXT 2:4608 'Copyright' (130,7759,142x20) fill=#FFFFFF text="© 2026 Luma Learning" font=Inter 400 13.0px/lh19.5 ls0.0

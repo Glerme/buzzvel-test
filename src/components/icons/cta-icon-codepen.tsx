@@ -1,0 +1,15 @@
+import type { SVGProps } from "react";
+
+/** Exported from Figma (cta-icon-codepen.svg). Decorative by default (aria-hidden). */
+export function CtaCodepenIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true" focusable="false" {...props}>
+<path d="M70 30V50" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+<path d="M10 50V30" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+<path d="M40 70V50" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+<path d="M40 10V30" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+<path d="M40 50L10 30L40 10L70 30L40 50Z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+<path d="M40 70L10 50L40 30L70 50L40 70Z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" stroke="#FFCB9F"/>
+</svg>
+  );
+}
